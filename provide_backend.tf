@@ -6,13 +6,13 @@ terraform {
       version = "~> 6.0"
     }
   }
-  backend "s3" {
-    bucket = "mys3backend23"
-    key    = "s3_example/v1/terraform.tfstate"
-    region = "ap-south-1"
-    ### State Locking 
-    use_lockfile = true
-  }
+  # backend "s3" {
+  #   bucket = "mys3backend23"
+  #   key    = "s3_example/v1/terraform.tfstate"
+  #   region = "ap-south-1"
+  #   ### State Locking 
+  #   use_lockfile = true
+  # }
 }
 
 provider "aws" {
