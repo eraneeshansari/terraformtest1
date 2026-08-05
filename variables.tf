@@ -24,5 +24,6 @@ variable "prod_sg_rule" {
 #    "82" = "0.0.0.0/0"
 #    "83" = "0.0.0.0/0"
 #  }
+#this is test code added
 }
 
