@@ -19,11 +19,11 @@ variable "instance_count" {
 variable "prod_sg_rule" {
   type = map(string)
 
-#  default = {
-#   # "81" = "0.0.0.0/0"
-#    "82" = "0.0.0.0/0"
-#    "83" = "0.0.0.0/0"
-#  }
+ default = {
+    "81" = "0.0.0.0/0"
+    "82" = "0.0.0.0/0"
+    "83" = "0.0.0.0/0"
+  }
 #this is test code added
 }
 
